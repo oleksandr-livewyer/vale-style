@@ -1,6 +1,6 @@
 # Vale Style
 
-[Vale Official Documentation](https://vale.sh/docs/)
+[Vale is a syntax-aware linter for prose built with speed and extensibility in mind.](https://vale.sh/docs/)
 
 ## Usage
 
