@@ -1,6 +1,8 @@
 # Vale Style
 
-[Vale is a syntax-aware linter for prose built with speed and extensibility in mind.](https://vale.sh/docs/)
+We have adopted Vale to improve the quality and consistency of our written content across the company. This repository contains a custom Vale package designed to enforce style guidelines and maintain clear, consistent writing. In this repository you will find all the necessary resources to integrate it into your workflow.
+
+You can find more information about Vale here: [vale.sh](https://vale.sh/docs)
 
 ## Usage
 
