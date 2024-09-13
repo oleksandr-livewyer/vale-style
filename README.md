@@ -11,6 +11,7 @@ To use this package, simply place the files from the `usage` directory in the ro
 To update this package, start by updating the files in the `livewyer` directory. Once you are satisfied with the package content, create a zip archive using the following command:
 
 ```
+rm -rf livewyer.zip
 zip -r livewyer.zip livewyer
 ```
 
