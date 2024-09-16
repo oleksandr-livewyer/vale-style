@@ -33,9 +33,10 @@ To update these packages, start by updating the files in the respective director
 ```bash
 export RELEASE_TAG=<tag>
 
-zip -r general.zip packages/general
-zip -r website.zip packages/website
-zip -r github.zip packages/github
+cd packages
+zip -r general.zip general
+zip -r website.zip website
+zip -r github.zip github
 
 gh release upload $RELEASE_TAG general.zip website.zip github.zip --clobber
 
