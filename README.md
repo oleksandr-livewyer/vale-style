@@ -33,12 +33,13 @@ To update these packages, start by updating the files in the respective director
 ```bash
 export RELEASE_TAG=<tag>
 
-rm -rf general.zip website.zip github.zip
 zip -r general.zip packages/general
 zip -r website.zip packages/website
 zip -r github.zip packages/github
 
 gh release upload $RELEASE_TAG general.zip website.zip github.zip --clobber
+
+rm -rf general.zip website.zip github.zip
 ```
 
 After obtaining the zip archive, create a GitHub Release in this repository and attach your new zip archives.
